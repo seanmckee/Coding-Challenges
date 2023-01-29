@@ -19,7 +19,7 @@ function sqInRect(lng, wdth){
         area = area - w
         lng = lng -wdth
       }
-      
+                
       if(lng === wdth) {
         arr.push(lng)
         area=0
