@@ -14,5 +14,6 @@ var uniqueInOrder = function (iterable) {
       current = iterable[i];
     }
   }
+
   return result;
 };
