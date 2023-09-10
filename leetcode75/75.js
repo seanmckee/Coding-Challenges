@@ -30,4 +30,6 @@ var compress = function (chars) {
   chars.splice(0, chars.length, ...compressed.split(""));
 
   return compressed.length;
+
+  
 };
